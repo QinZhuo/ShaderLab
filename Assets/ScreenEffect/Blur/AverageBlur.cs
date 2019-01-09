@@ -11,11 +11,12 @@ public class AverageBlur : ScreenEffect {
 	public int iteration=2;
 	private void OnRenderImage(RenderTexture src, RenderTexture dest) {
 		if(material){
-			RenderTexture rt1=RenderTexture.GetTemporary(src.width>>downSample,src.height>>downSample,0,src.format);	//将图片降低采样也就是降低分辨率 加快速度 >>为C#位运算符
+			RenderTexture rt1=RenderTexture.GetTemporary(src.width>>downSample,src.height>>downSample,0,src.format);	
+			//将图片降低采样也就是降低分辨率 加快速度 >>为C#位运算符
 			RenderTexture rt2=RenderTexture.GetTemporary(src.width>>downSample,src.height>>downSample,0,src.format);
 
 			Graphics.Blit(src,rt1);		//将源图像复制给rt1
-			material.SetFloat("_BlurRadius",blurRadius);	//将模糊半径赋值给对应的材质球 （此处材质球为父物体用对应shader创建）
+			material.SetFloat("_BlurRadius",blurRadius);	//将模糊半径赋值给对应的材质球 （此处材质球为父类用对应shader创建）
 			for(int i=0;i<iteration;i++){				//循环调用material对应的处理函数 次数为迭代次数 也就是循环次数
 				Graphics.Blit(rt1,rt2,material);
 				Graphics.Blit(rt2,rt1,material);

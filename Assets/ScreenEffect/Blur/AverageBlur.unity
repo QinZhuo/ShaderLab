@@ -5299,9 +5299,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shader: {fileID: 4800000, guid: 2278204f5a6da864396b27e4d3767cf8, type: 3}
-  downSample: 2
-  blurRadius: 2.4
-  iteration: 2
+  downSample: 3
+  blurRadius: 1.58
+  iteration: 1
 --- !u!1001 &1260573523
 Prefab:
   m_ObjectHideFlags: 0

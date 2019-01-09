@@ -55,6 +55,8 @@
   <ItemGroup>
      <Compile Include="Assets\Job\T2Test.cs" />
      <Compile Include="Assets\ScreenEffect\Blur\AverageBlur.cs" />
+     <Compile Include="Assets\ScreenEffect\Blur\GaussianBlur.cs" />
+     <Compile Include="Assets\ScreenEffect\Blur\RadiaBlur.cs" />
      <Compile Include="Assets\ScreenEffect\ScreenEffect.cs" />
      <None Include="Assets\Job\t5.shader" />
      <None Include="Assets\Job\t2.shader" />
@@ -68,6 +70,7 @@
      <None Include="Assets\Learn\L3\shaderCode 1.shader" />
      <None Include="Assets\Job\t3.shader" />
      <None Include="Assets\Learn\L3\shaderCode.shader" />
+     <None Include="Assets\ScreenEffect\Blur\RadialBlur.shader" />
      <None Include="Assets\ScreenEffect\Blur\AverageBlur.shader" />
      <None Include="Assets\ScreenEffect\Blur\GaussianBlur.shader" />
  <Reference Include="UnityEditor.StandardEvents">

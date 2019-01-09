@@ -8787,7 +8787,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 11400000, guid: 5e9da65ad60c5c9429eca5d7653cbf05, type: 2}
 --- !u!95 &2018271279
 Animator:
   serializedVersion: 3
@@ -8834,10 +8833,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2018271272}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45b3854706e22954990ddb66feff432f, type: 3}
+  m_Script: {fileID: 11500000, guid: 6de26bce816d17e45af9de27cf638e1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   shader: {fileID: 4800000, guid: fba9064f44096db438851f6d6df08a0e, type: 3}
+  downSample: 2
+  blurRadius: 1.59
+  iteration: 5
 --- !u!1001 &2021815994
 Prefab:
   m_ObjectHideFlags: 0
