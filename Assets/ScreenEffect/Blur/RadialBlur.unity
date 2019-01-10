@@ -1045,7 +1045,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shader: {fileID: 4800000, guid: 0f4dea1fa84ac5d4aaffddf489beb376, type: 3}
-  blurScale: 0.0326
+  blurScale: 0
   center: {x: 0.5, y: 0.5}
 --- !u!95 &511874240
 Animator:
