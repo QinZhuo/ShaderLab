@@ -35,7 +35,9 @@ Shader "ImageEffect/AverageBlur"
 				col+=tex2D(_MainTex,i.uv+fixed2(x-1,y-1)*offset);	//全部加和
 			}
 		}
-		return col/9;		//因遍历周围9各像素点
+		col=col/9;
+		col.a=1;
+		return col;		//因遍历周围9各像素点
 	} 
 	ENDCG
 	SubShader

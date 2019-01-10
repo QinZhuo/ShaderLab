@@ -54,11 +54,13 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Job\T2Test.cs" />
+     <Compile Include="Assets\ScreenEffect\Bloom\Bloom.cs" />
      <Compile Include="Assets\ScreenEffect\Blur\AverageBlur.cs" />
      <Compile Include="Assets\ScreenEffect\Blur\GaussianBlur.cs" />
      <Compile Include="Assets\ScreenEffect\Blur\RadiaBlur.cs" />
      <Compile Include="Assets\ScreenEffect\ScreenEffect.cs" />
      <None Include="Assets\Job\t5.shader" />
+     <None Include="Assets\ScreenEffect\Bloom\Bloom.shader" />
      <None Include="Assets\Job\t2.shader" />
      <None Include="Assets\Job\t4.shader" />
      <None Include="Assets\Learn\L1\shaderCode.shader" />

@@ -1045,8 +1045,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shader: {fileID: 4800000, guid: 0f4dea1fa84ac5d4aaffddf489beb376, type: 3}
-  blurScale: 0
-  center: {x: 0.5, y: 0.5}
+  blurScale: -0.05
+  center: {x: 0.2, y: 0.2}
 --- !u!95 &511874240
 Animator:
   serializedVersion: 3
@@ -1059,7 +1059,7 @@ Animator:
   m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1

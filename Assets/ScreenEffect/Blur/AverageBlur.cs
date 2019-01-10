@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+[System.Serializable]
 public class AverageBlur : ScreenEffect {
 	[Range(0,5),Tooltip("降采样")]
 	public int  downSample=2;
