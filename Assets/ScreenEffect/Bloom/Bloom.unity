@@ -5226,7 +5226,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1257269097}
   - component: {fileID: 1257269096}
-  - component: {fileID: 1257269102}
+  - component: {fileID: 1257269093}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -5234,6 +5234,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1257269093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1257269092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6444ee72364d60f499505c85cfdc06fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shader: {fileID: 4800000, guid: 8f1ced428f0da9f4ca96ce5f1e42ea40, type: 3}
+  ThresholdColor: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 1}
+  BloomColor: {r: 1, g: 1, b: 1, a: 1}
+  BloomScale: 3
+  downSample: 2
+  blurRadius: 1
+  iteration: 1
 --- !u!20 &1257269096
 Camera:
   m_ObjectHideFlags: 0
@@ -5287,21 +5305,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 8.228001, y: -1.871, z: -0.324}
---- !u!114 &1257269102
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1257269092}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e93a5c8229de268408958c38c9a41dc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shader: {fileID: 4800000, guid: 2278204f5a6da864396b27e4d3767cf8, type: 3}
-  downSample: 1
-  blurRadius: 1.65
-  iteration: 5
 --- !u!1001 &1260573523
 Prefab:
   m_ObjectHideFlags: 0
